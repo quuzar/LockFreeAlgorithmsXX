@@ -5,9 +5,14 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-include_directories(${PROJECT_SOURCE_DIR}/include)
-
 add_executable(LockFreeAlg
         src/main.cpp
 )
 
+target_include_directories(LockFreeAlg PRIVATE
+        "${PROJECT_SOURCE_DIR}/include"
+)
+
+target_include_directories(LockFreeAlg PRIVATE
+        "${PROJECT_SOURCE_DIR}/tests"
+)
