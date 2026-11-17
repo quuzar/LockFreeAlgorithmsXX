@@ -5,7 +5,7 @@
 #include <vector>
 #include <atomic>
 #include <iomanip>
-#include "LockFreeStack.h"
+#include <LockFreeStack.hpp>
 
 static constexpr int GLOBAL_POOL_SIZE = 32768;
 

@@ -1,5 +1,5 @@
 #pragma once
-#include "LockFreeStack.h"
+#include <LockFreeStack.hpp>
 #include <iostream>
 #include <thread>
 #include <atomic>

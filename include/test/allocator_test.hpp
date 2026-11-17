@@ -5,7 +5,7 @@
 #include <atomic>
 #include <array>
 #include <cassert>
-#include "Allocator.h"
+#include <Allocator.hpp>
 
 // ============================================================
 // ТЕСТ 1: Базовый LIFO порядок

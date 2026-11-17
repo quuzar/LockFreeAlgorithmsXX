@@ -5,7 +5,7 @@
 #include <atomic>
 #include <array>
 #include <cassert>
-#include "LockFreeStack.h"
+#include <LockFreeStack.hpp>
 
 // ============================================================
 // ТЕСТ 1: Базовый LIFO порядок

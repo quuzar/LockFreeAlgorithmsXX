@@ -3,7 +3,7 @@
 #include <thread>
 #include <array>
 
-#include "Structs.h"
+#include <Structs.hpp>
 
 template<typename T>
 class Allocator {

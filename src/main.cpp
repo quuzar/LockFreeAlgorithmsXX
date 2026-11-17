@@ -1,7 +1,7 @@
-#include "allocator_test.h"
-#include "lockfreestack_test.h"
-#include "benchmark.h"
-#include "stres_test.h"
+#include <test/allocator_test.hpp>
+#include <test/lockfreestack_test.hpp>
+#include <test/benchmark.hpp>
+#include <test/stres_test.hpp>
 
 #include <iostream>
 int main() {
