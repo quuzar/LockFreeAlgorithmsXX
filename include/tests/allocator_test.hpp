@@ -19,13 +19,13 @@
 
 template<template<typename> class Allocator>
 void test_allocator() {
-    struct alignas(64) Value {
+    struct alignas(256) Value {
         uint64_t id = 0;
         uint64_t checksum = 0;
         std::array<uint64_t, 6> data{};
     };
 
-    struct alignas(128) LargeValue {
+    struct alignas(256) LargeValue {
         std::array<uint64_t, 512> data{};
     };
 
